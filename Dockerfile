@@ -1,10 +1,12 @@
 FROM centos:7
 
 LABEL jp.co.field-works.vendor="Field Works, LLC." \
-      jp.co.field-works.version="1.5.7"
+      jp.co.field-works.version="2.0.0"
 
 WORKDIR /reports
 COPY . .
+
+RUN yum install -y libev
 
 RUN cd ./fonts \
     && curl -L -o SourceHanSans-Medium.otf "https://github.com/adobe-fonts/source-han-sans/blob/release/SubsetOTF/JP/SourceHanSansJP-Medium.otf?raw=true" \
