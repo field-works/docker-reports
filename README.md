@@ -9,7 +9,7 @@ Field Reports（以降，本ソフトウェアと表記します）は，マル�
 本 Docker イメージはライセンスキーが未登録の状態で作成されているため，**試用版**として動作します。
 
 - 試用版は，導入前の評価・動作検証以外の目的ではご利用いただけません。
-- [ソフトウェア使用許諾契約](https://github.com/field-works/field-reports/blob/master/LICENSE.txt)に同意の上，ご利用ください。
+- [ソフトウェア使用許諾契約](https://github.com/field-works/field-reports/blob/master/LICENSE.md)に同意の上，ご利用ください。
 - 製品版への移行方法につきましては，「製品版への移行」の項をご参照ください。
 
 試用版で出力される PDF には，以下の制約があります。
@@ -232,7 +232,7 @@ $ docker run -it -d --name reports -p 50080:50080 \
 
 本ソフトウェアを利用する前に，ソフトウェア使用許諾契約書をよくお読みください。
 
-- [ソフトウェア使用許諾契約書](https://github.com/field-works/field-reports/blob/master/LICENSE.txt)
+- [ソフトウェア使用許諾契約書](https://github.com/field-works/field-reports/blob/master/LICENSE.md)
 
 本ソフトウェアでは，LGPL の適用対象となるプログラムを利用しています。
 LGPL については下記を参照してください。
